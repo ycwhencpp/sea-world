@@ -1,0 +1,72 @@
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+
+}
+section{
+    height:100vh;
+    width:100%;
+}
+header{
+    height:10vh;
+    background:transparent   ;
+    width:85%;
+    margin:auto;
+}
+nav{
+    width:100%;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    z-index:10000
+}
+.logo{
+   color: #000;
+   font-size: 2em;
+   font-weight: 700;
+   letter-spacing:.5px;
+   text-transform: capitalize;
+   text-decoration: none;
+  
+
+}
+.rightside{
+    display: flex;
+    
+    
+}
+.btn{
+    width:40px;
+    height:40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    cursor:pointer;
+    margin-left: 15px;
+}
+.btn ion-icon{
+    font-size: 1.5em;
+    color:#000;
+}
+.btn ion-icon:nth-child(2){
+display: none;
+}
+
+.btn.menu{
+    font-size: 3em;
+}
+.btn.dark_mode ion-icon:nth-child(1){
+    display: none; 
+}
+.btn.dark_mode ion-icon:nth-child(2){
+    display:inline-block;
+}
+.btn.toggle ion-icon:nth-child(2){
+    display:inline-block;
+}
+.btn.toggle ion-icon:nth-child(1){
+    display:none;
+}
