@@ -149,7 +149,7 @@ display: none;
 .navigation.active{
     left:0;
 }
-p{
+.copyright{
     position:absolute;
     bottom: 0;
     left:100px;
@@ -173,4 +173,29 @@ p{
     font-size:1.75em;
     color:var(--black);
     margin-top:10px;
+}
+@media (max-width:768px) {
+   
+    .text{
+        font-size:13vh;
+    }
+    .copyright{
+        left:0;
+        bottom:0px;
+        font-size:1em;
+    }
+    .sci{
+        right:15px;
+        bottom:0px;
+        flex-direction: row;
+    }
+    .sci li a{
+        font-size:1.25em;
+        margin-left:10px;
+    }
+    .navigation li a{
+        display: inline-block;
+        margin-right:50px;
+        
+    }
 }
